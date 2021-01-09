@@ -10,9 +10,9 @@ export default class PathVisualizer extends Component {
   }
   componentDidMount() {
     const nodes = [];
-    for (let row = 0; row < 15; row++) {
+    for (let row = 0; row < 35; row++) {
       const currentRow = [];
-      for (let col = 0; col < 50; col++) {
+      for (let col = 0; col < 90; col++) {
         currentRow.push([]);
       }
       nodes.push(currentRow);
