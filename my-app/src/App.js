@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import PatrhVisualizer from './PathVisualizer/PatrhVisualizer';
+import PathVisualizer from './PathVisualizer/PathVisualizer';
 
 function App() {
   return (
